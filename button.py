@@ -5,6 +5,7 @@ import pygame
 class Button:
     def __init__(self, text, width, height, pos, top_color, bottom_color, font, font_color, hover_color, elevation):
         # атрибуты кнопки
+        self.text = text
         self.elevation = elevation
         self.previous_elevation = elevation
         self.original_y_position = pos[1]
